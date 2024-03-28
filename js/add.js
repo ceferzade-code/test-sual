@@ -25,7 +25,7 @@ clik.onclick = function () {
 };
 
 let x = document.getElementById('submit').style
-x.width = '60px';
+x.width = '72px';
 x.height = "45px"
 x.borderEndEndRadius = '20px'
 x.borderStartStartRadius = '20px'
@@ -33,6 +33,8 @@ x.backgroundColor = 'black'
 x.color = 'red'
 x.fontSize= ' 18px'
 x. border = '1px solid red'
+x.cursor = 'not-allowed'
+// x.paddingInline = "8px"
 
 console.log(
     document.getElementById('86years')
